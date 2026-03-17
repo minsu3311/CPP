@@ -37,7 +37,6 @@ int main()
         std::cout << "\n";
     }
 
-
             printf("\n4번 문제\n");
     for(int i = 1; i <= 5; i++)
     {
