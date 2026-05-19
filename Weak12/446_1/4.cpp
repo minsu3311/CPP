@@ -33,3 +33,7 @@ int main() {
 
     return 0;
 }
+
+// 오류 발생 error: 'int Point::x' is private within this context
+// 오류 발생 error: 'int Point::y' is private within this context
+// 발생 원인 point 클래스가 protected에서 private로 바뀌며 상속을 할수 없게 되었기 때문에 오류가 발생한다
